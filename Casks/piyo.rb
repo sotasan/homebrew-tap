@@ -1,11 +1,11 @@
 cask "piyo" do
-  version "0.0.5"
-  sha256 "0af5f04b7fdb668197af8ace8c180b1f0583bf83de3c5809e3ef8af3cedea875"
+  version "0.0.10"
+  sha256 "200926310c3664d116c7c54f24ff569be2bce96c9b56d7c81772578f5dae5d34"
 
   url "https://github.com/sotasan/piyo/releases/download/v#{version}/Piyo_#{version}_aarch64.dmg",
       verified: "github.com/sotasan/piyo/"
   name "Piyo"
-  desc "The coziest terminal emulator"
+  desc "Coziest terminal emulator"
   homepage "https://piyo.sh/"
 
   livecheck do
