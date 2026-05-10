@@ -8,6 +8,11 @@ cask "piyo" do
   desc "The coziest terminal emulator"
   homepage "https://piyo.sh/"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   auto_updates true
   depends_on arch: :arm64
 
