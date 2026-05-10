@@ -1,6 +1,6 @@
 cask "piyo" do
-  version "0.0.11"
-  sha256 "619a5c5c9a8169319e65dc16d60158b5550771951de5b2cd796bdfd31321871a"
+  version "0.0.12"
+  sha256 "9b74f86b0630cbdee547a6f65422f46f933f0a4d6b7936e86dab3b8bf77f2e15"
 
   url "https://github.com/sotasan/piyo/releases/download/v#{version}/Piyo_#{version}_aarch64.dmg",
       verified: "github.com/sotasan/piyo/"
