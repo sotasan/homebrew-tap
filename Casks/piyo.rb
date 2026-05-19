@@ -1,6 +1,6 @@
 cask "piyo" do
-  version "0.1.2"
-  sha256 "c27af2ab41a0f37246ebee6d3942c1337a05cf3c71cf520b568e7a0bad87bcfb"
+  version "0.2.0"
+  sha256 "df819920997c0b14d7c0cfe03e1b983369a27beb8e96df51006a5c23f3d74ba7"
 
   url "https://github.com/sotasan/piyo/releases/download/v#{version}/Piyo_#{version}_aarch64.dmg",
       verified: "github.com/sotasan/piyo/"
@@ -15,6 +15,7 @@ cask "piyo" do
 
   auto_updates true
   depends_on arch: :arm64
+  depends_on :macos
 
   app "Piyo.app"
 
